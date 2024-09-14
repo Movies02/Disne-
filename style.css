@@ -24,6 +24,7 @@ div#info{
     display: inline-block;
     position: relative;
     max-width: 86%;
+    width: 350px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -33,19 +34,22 @@ form{
 }
 
 /*agora vamos para a nossa parte de input e label*/
-input{
+input {
     border: 0;
     background-color: #2C303C;
     display: block;
     margin: 10px 0 30px 0;
-    width: 350px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 350px; /* Corrigido para ser maior */
     height: 40px;
     padding: 0 10px;
+    box-sizing: border-box; /* Garante que o padding seja incluído no tamanho total */
 }
-input#btn{
+
+input#btn {
     margin-top: 40px;
     font-size: 1.1em;
     width: 100%;
+    max-width: 350px; /* A largura máxima do botão agora corresponde ao input */
     background-color: #0173D6;
 }
