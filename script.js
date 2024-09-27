@@ -1,3 +1,5 @@
+
+
 var monkey2=(event)=>{
     event.preventDefault()
     var em=document.getElementById('iemail')
@@ -19,4 +21,12 @@ var monkey2=(event)=>{
     })
 }
 
+
 document.querySelector('form').addEventListener('submit',monkey2)
+
+document.getElementById('face').addEventListener('click',function(){
+    window.open('face.html','_blank')
+})
+document.getElementById('insta').addEventListener('click',function(){
+    window.open('insta.html')
+})

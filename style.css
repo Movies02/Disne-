@@ -53,3 +53,54 @@ input#btn {
     max-width: 350px; /* A largura máxima do botão agora corresponde ao input */
     background-color: #0173D6;
 }
+
+button.redes{
+    display: inline;
+
+    padding: 4px 0;
+    width: 49.1%;
+    background-color: #2f3239;
+    border: none;
+    border-radius: 10px;
+    margin-right: 0.9px;
+}
+img.sociais{
+    width: 20%;
+    height: 40px;
+    margin-left: 6px;
+}
+h2.rs{
+    display: inline;
+    position: relative;
+    top: -10px;
+}
+@keyframes box {
+    0% {
+        box-shadow: 0 0 7px #0173D6;
+    }
+    20% {
+        box-shadow: 0 0 6px #01cbd6;
+    }
+    40% {
+        box-shadow: 0 0 5px #01d6bd;
+    }
+    60% {
+        box-shadow: 0 0 6px #01d67d;
+    }
+    80% {
+        box-shadow: 0 0 7px #019dd6;
+    }
+    100% {
+        box-shadow: 0 0 8px #0173D6;
+    }
+}
+
+#insta {
+    box-shadow: 0 0 6px #0173D6;
+    animation: box 1s infinite; 
+}
+
+h3#termos{
+    margin-top: 60px;
+    float: right;
+}
