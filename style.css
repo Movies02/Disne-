@@ -64,14 +64,15 @@ button.redes{
     border-radius: 10px;
 }
 img.sociais{
-    width: 20%;
-    height: 40px;
+    width: 15%;
+    height: 25px;
     margin-left: 6px;
 }
 h2.rs{
     display: inline;
     position: relative;
-    top: -10px;
+    top: -6px;
+    font-size: 100%;
 }
 @keyframes box {
     0% {
